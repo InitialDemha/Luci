@@ -31,6 +31,65 @@ section {
     padding: 20px;
 }
 
+section h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin: -20px -20px 20px -20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info-section, .links-section, .carousel-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.links li {
+    margin-right: 20px;
+}
+
+.links li:last-child {
+    margin-right: 0;
+}
+
+.links li a img {
+    max-width: 60px;
+    height: auto;
+}
+
+.slick-slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
 /* Pour rendre les images du carrousel réactives */
 .slick-slide img {
     width: 100%;
@@ -56,24 +115,6 @@ h2 {
 footer {
     font-size: 14px;
 }
-
-.info-section, .links-section, .carousel-section {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-}
-
-.info {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-
-.links li:last-child {
-    margin-right: 0;
-}
-
 
 .slick-prev, .slick-next {
     font-size: 20px;
